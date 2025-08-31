@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # 1. Load Dataset
-data = pd.read_csv("Crop_recommendation.csv")  # download from Kaggle
+data = pd.read_csv("Crop_recommendation.csv")  # download from Kaggle website
 
 # 2. Check data
 print("First 5 rows:\n", data.head())
